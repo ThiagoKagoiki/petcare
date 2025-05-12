@@ -17,7 +17,7 @@ export const Login = () => {
         
         if(success){
             alert('okk')
-            navigate('/')
+            navigate('/dashboard')
         }else{
             alert("Usuário ou senha inválidos")
         }

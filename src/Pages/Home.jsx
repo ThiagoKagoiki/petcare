@@ -10,7 +10,7 @@ export const Home = () => {
             <p>exibir 3 pets nome, raca e idade com uma img</p>
             <button>Entrar como funcionario</button> */}
 
-            <h1>bem vindo</h1>
+            <h1>Bem vindo</h1>
         </div>
     )
 }
