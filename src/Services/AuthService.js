@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'https://681b999317018fe5057c26f6.mockapi.io/api/v1/users';
+const API_URL = 'https://681b999317018fe5057c26f6.mockapi.io/users';
 
 export const loginRequest = async (username, password) => {
     try{

@@ -6,8 +6,11 @@ export const Home = () => {
 
     return(
         <div>
-            <button>Login</button>
-            <button>Dashboard</button>
+            {/* <h1>Bem vindo</h1>
+            <p>exibir 3 pets nome, raca e idade com uma img</p>
+            <button>Entrar como funcionario</button> */}
+
+            <h1>bem vindo</h1>
         </div>
     )
 }

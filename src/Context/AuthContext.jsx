@@ -7,7 +7,7 @@ export const AuthProvider = ({children}) => {
 
     const [user, setUser] = useState(null);
 
-    const login = async(username, password) => {
+    const loginfunc = async(username, password) => {
         const {success, user} = await loginRequest(username, password);
         setUser(success ? user : null)
         return success
@@ -16,7 +16,7 @@ export const AuthProvider = ({children}) => {
     const logout = () => setUser(null)
 
     return(
-        <AuthContext.Provider value={(user, login, logout)}>
+        <AuthContext.Provider value={{user, loginfunc, logout}}>
             {children}
         </AuthContext.Provider>
     )
